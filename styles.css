@@ -23,7 +23,7 @@ html {
 body {
     font-size: 15px;
     background-color: var(--clr-off-white);
-    margin: 4vw;
+    margin: 4vw 6vw;
     font-family: var(--ff);
     display: flex;
     flex-direction: column;
@@ -32,11 +32,16 @@ body {
 }
 
 header {
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2vw 0vw;
+    margin: 0vw;
+    top: 0vw;
+    background-color: var(--clr-off-white);
+    width: 88vw;
+    height: 16vw;
 }
 
 header img {
@@ -45,7 +50,6 @@ header img {
 }
 
 .menu-btn {
-
     border: none;
     background-color: inherit;
 }
@@ -80,7 +84,7 @@ header img {
 
 .menu-close-btn {
     align-self: flex-end;
-    margin: 6vw 4vw 30vw 4vw;
+    margin: 4vw 6vw 30vw 4vw;
 }
 
 .close-btn {
@@ -102,17 +106,23 @@ header img {
     font-size: 1.2em;
     color: var(--clr-very-dark-blue);
     padding: 4vw 6vw;
+    margin: 0vw 1vw;
+    transition: var(--transition);
+}
+
+.menu-main-contents:focus {
+    background-color: var(--clr-grayish-blue);
 }
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 4vw 0vw;
+    margin: 12vw 0vw;
 }
 
 .headline-hero {
-    width: 92vw;
+    width: 88vw;
     height: 80vw;
     background-image: url(assets/images/image-web-3-mobile.jpg);
     background-size: cover;
@@ -153,7 +163,7 @@ header img {
     display: flex;
     flex-direction: column; 
     background-color: var(--clr-very-dark-blue);
-    padding: 4vw;
+    padding: 4vw 6vw;
 }
 
 .new-header h1 {
