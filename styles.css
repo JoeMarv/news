@@ -148,3 +148,33 @@ header img {
     padding: 3vw 6vw;
     letter-spacing: 1vw;
 }
+
+.new {
+    display: flex;
+    flex-direction: column; 
+    background-color: var(--clr-very-dark-blue);
+    padding: 4vw;
+}
+
+.new-header h1 {
+    color: var(--clr-soft-orange);
+}
+
+.new-content {
+    padding: 4vw 0vw 8vw 0vw;
+    border-bottom: 1px solid var(--clr-dark-grayish-blue);
+}
+
+.new-content-header h3 {
+    color: var(--clr-off-white);
+    letter-spacing: 0.25vw;
+}
+
+.new-content-body span {
+    color: var(--clr-dark-grayish-blue)
+}
+
+.last {
+    border: none;
+    padding: 0vw 0vw 4vw 0vw
+}
