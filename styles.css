@@ -320,7 +320,7 @@ header img {
             transition: var(--transition);
         }
 
-        .main-menu-contents:hover {
+        .menu-main-contents:hover {
             color: var(--clr-soft-red);
             background-color: var(--clr-off-white);
         }
