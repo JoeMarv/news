@@ -8,88 +8,95 @@
   <title>News Homepage</title>
 </head>
 <body>
-  <header class="header">
-    <img src="assets/images/logo.svg" alt="logo" class="logo">
-
-    <button class="menu-btn">
-      <img src="assets/images/icon-menu.svg" alt="menu button">
-    </button>
-  </header>
-
-  <menu class="menu">
-    <div class="menu-contents">
-      <div class="menu-close-btn">
-        <button class="close-btn">
-          <img src="assets/images/icon-menu-close.svg" alt="close menu button">
-        </button>
+  <div class="header-and-menu">
+    <header class="header">
+      <img src="assets/images/logo.svg" alt="logo" class="logo">
+    
+      <button class="menu-btn">
+        <img src="assets/images/icon-menu.svg" alt="menu button">
+      </button>
+    </header>
+    
+    <menu class="menu">
+      <div class="menu-contents">
+        <div class="menu-close-btn">
+          <button class="close-btn">
+            <img src="assets/images/icon-menu-close.svg" alt="close menu button">
+          </button>
+        </div>
+    
+        <div class="menu-main">
+          <button class="menu-main-contents">Home</button>
+          <button class="menu-main-contents">New</button>
+          <button class="menu-main-contents">Popular</button>
+          <button class="menu-main-contents">Trending</button>
+          <button class="menu-main-contents">Categories</button>
+        </div>
       </div>
-
-      <div class="menu-main">
-        <button class="menu-main-contents">Home</button>
-        <button class="menu-main-contents">New</button>
-        <button class="menu-main-contents">Popular</button>
-        <button class="menu-main-contents">Trending</button>
-        <button class="menu-main-contents">Categories</button>
-      </div>
-    </div>
-  </menu>
+    </menu>
+  </div>
 
   <main class="main">
-    <section class="headline">
-      <div class="headline-hero"></div>
-
-      <div class="headline-text">
-        <div class="headline-text-header">
-          <h1>The Bright Future of Web 3.0?</h1>
+    <div class="headline-and-new">
+      <section class="headline">
+        <div class="headline-hero"></div>
+      
+        <div class="headline-text">
+          <div class="headline-text-header">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          
+          <div class="headline-text-and-button">
+            <div class="headline-text-main">
+              <span>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+              of the people. But is it really fulfilling its promise?</span>
+            </div>
+      
+            <div class="headline-button">
+              <button>Read more</button>
+            </div>
+          </div>
         </div>
-
-        <div class="headline-text-main">
-          <span>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</span>
+      </section>
+      
+      <section class="new">
+        <div class="new-header">
+          <h1>New</h1>
         </div>
-
-        <div class="headline-button">
-          <button>Read more</button>
+      
+        <div class="new-contents">
+          <article class="new-content">
+            <div class="new-content-header">
+              <h3>Hydrogen VS Electric Cars</h3>
+            </div>
+      
+            <div class="new-content-body">
+              <span>Will hydrogen-fueled cars ever catch up to EVs?</span>
+            </div>
+          </article>
+      
+          <article class="new-content">
+            <div class="new-content-header">
+              <h3>The Downsides of AI Artistry</h3>
+            </div>
+      
+            <div class="new-content-body">
+              <span>What are the possible adverse effects of on-demand AI image generation?</span>
+            </div>
+          </article>
+      
+          <article class="new-content last">
+            <div class="new-content-header">
+              <h3>Is VC Funding Drying Up?</h3>
+            </div>
+      
+            <div class="new-content-body">
+              <span>Private funding by VC firms is down 50% YOY. We take a look at what that means.</span>
+            </div>
+          </article>
         </div>
-      </div>
-    </section>
-
-    <section class="new">
-      <div class="new-header">
-        <h1>New</h1>
-      </div>
-
-      <div class="new-contents">
-        <article class="new-content">
-          <div class="new-content-header">
-            <h3>Hydrogen VS Electric Cars</h3>
-          </div>
-
-          <div class="new-content-body">
-            <span>Will hydrogen-fueled cars ever catch up to EVs?</span>
-          </div>
-        </article>
-
-        <article class="new-content">
-          <div class="new-content-header">
-            <h3>The Downsides of AI Artistry</h3>
-          </div>
-        
-          <div class="new-content-body">
-            <span>What are the possible adverse effects of on-demand AI image generation?</span>
-          </div>
-        </article>
-
-        <article class="new-content last">
-          <div class="new-content-header">
-            <h3>Is VC Funding Drying Up?</h3>
-          </div>
-        
-          <div class="new-content-body">
-            <span>Private funding by VC firms is down 50% YOY. We take a look at what that means.</span>
-          </div>
-        </article>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="trending">
       <article class="trend">
