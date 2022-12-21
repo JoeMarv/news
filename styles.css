@@ -427,6 +427,12 @@ header img {
         .new-content-header h3 {
             color: var(--clr-off-white);
             letter-spacing: 0.1vw;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .new-content-header h3:hover {
+            color: var(--clr-soft-orange);
         }
     
         .new-content-body span {
@@ -474,6 +480,12 @@ header img {
             font-weight: 800;
             color: var(--clr-very-dark-blue);
             margin: 1vh 0vw;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .trend-news-header h3:hover {
+            color: var(--clr-soft-red);
         }
     
         .trend-news-body span {
